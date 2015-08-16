@@ -5,21 +5,22 @@ using System.Text;
 
 namespace Decorator
 {
-	public class BorderDecorator : IVisualComponent
+	public class TextViewWithBorderAndScroll
     {
         private int _width;
-		private readonly IVisualComponent _component;
+		private int _topLine;
 
-		public BorderDecorator(IVisualComponent component, int borderWidth)
+		public TextViewWithBorderAndScroll(int borderWidth, int topLine)
         {
-			_component = component;
             _width = borderWidth;
+			_topLine = topLine;
         }
 
         public void Draw()
         {
 			DrawBorder();
-			_component.Draw();
+			Console.WriteLine("Scroll bar being displayed. First line being displayed is line {0}.", _topLine);
+			new TextView().Draw();
         }
 
 		public void DrawBorder() 
