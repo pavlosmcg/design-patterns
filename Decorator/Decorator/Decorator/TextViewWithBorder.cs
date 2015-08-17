@@ -16,13 +16,8 @@ namespace Decorator
 
         public void Draw()
         {
-			DrawBorder();
-			new TextView().Draw();
+			GUI.DrawBorder (_width);
+			GUI.DrawTextView ();
         }
-
-		public void DrawBorder() 
-		{
-			Console.WriteLine("Border drawn with width {0}.", _width);
-		}
     }
 }

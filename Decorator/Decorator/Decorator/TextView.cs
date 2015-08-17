@@ -9,7 +9,7 @@ namespace Decorator
     {
         public void Draw()
         {
-            Console.WriteLine("Text view drawn.");
+			GUI.DrawTextView ();
         }
     }
 }

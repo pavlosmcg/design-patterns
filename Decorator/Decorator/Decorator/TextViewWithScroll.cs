@@ -16,8 +16,8 @@ namespace Decorator
 
         public void Draw()
         {
-			Console.WriteLine("Scroll bar being displayed. First line being displayed is line {0}.", _topLine);
-			new TextView().Draw();
+			GUI.DrawScrollBar(_topLine);
+			GUI.DrawTextView();
         }
     }
 }
