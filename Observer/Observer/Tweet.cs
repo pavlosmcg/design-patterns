@@ -8,11 +8,5 @@ namespace Observer
         public DateTime PublicationTime { get; set; }
         public string Text { get; set; }
 
-        public Tweet(string author, DateTime publicationTime, string text)
-        {
-            Author = author;
-            PublicationTime = publicationTime;
-            Text = text;
-        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 namespace Observer
 {
@@ -10,7 +11,7 @@ namespace Observer
         {
             if (Tweeting != null)
             {
-                Tweeter(this, new TweetEventArgs(author, publicationTime, text));
+                Tweeting(this, new TweetEventArgs(author, publicationTime, text));
             }
         }
 

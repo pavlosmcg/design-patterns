@@ -24,7 +24,7 @@ namespace Observer
 
         private void Display()
         {
-            Console.WriteLine("{0} tweeted: {1} on {2}", _tweeter, _text, _publicationTime);
+            Console.WriteLine("{0} is so SO wise. She tweeted: {1} on {2}", _tweeter, _text, _publicationTime);
         }
     }
 }
