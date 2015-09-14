@@ -4,13 +4,8 @@ namespace Observer
 {
     internal class Tweeter : ISubject
     {
-        private readonly List<IObserver> _followers;
+        private readonly List<IObserver> _followers = new List<IObserver>();
         private Tweet _tweet;
-
-        public Tweeter()
-        {
-            _followers = new List<IObserver>();
-        }
 
         public void Subscribe(IObserver follower)
         {

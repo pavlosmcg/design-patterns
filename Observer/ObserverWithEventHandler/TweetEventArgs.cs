@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Observer
+namespace ObserverWithEventHandler
 {
     public class TweetEventArgs : EventArgs
     {
-        public TweetEventArgs (string author, DateTime publicationTime, string text)
+        public TweetEventArgs (Tweet tweet)
         {
-            this.Author = author;
-            this.PublicationTime = publicationTime;
-            this.Text = text;
+            this.Author = tweet.Author;
+            this.PublicationTime = tweet.PublicationTime;
+            this.Text = tweet.Text;
         }
 
         public string Author { get; set; }

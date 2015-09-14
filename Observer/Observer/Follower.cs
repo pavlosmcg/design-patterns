@@ -4,7 +4,7 @@ namespace Observer
 {
     class Follower : IObserver
     {
-        private Tweeter _tweeter;
+        private readonly Tweeter _tweeter;
         private DateTime _publicationTime;
         private string _text;
 

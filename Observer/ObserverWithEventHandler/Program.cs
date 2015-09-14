@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Observer
+namespace ObserverWithEventHandler
 {
     class Program
     {
@@ -20,7 +20,6 @@ namespace Observer
             };
 
             Console.ReadLine();
-
         }
     }
 }
