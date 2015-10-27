@@ -1,5 +1,6 @@
 ﻿namespace BuildPattern101
 {
+    // THE CONCRETE BUILDER
     public class VehicleBuilder : IVehicleBuilder
     {
         private int Seats { get; set; }
