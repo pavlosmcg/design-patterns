@@ -1,5 +1,6 @@
 ﻿namespace BuildPattern101
 {
+    // A FACTORY EXAMPLE....
     public abstract class VehicleFactory
     {
         public Vehicle CreateVehicle(int seats, int engineSize, string colour, string bootType, int wheels)

@@ -4,6 +4,7 @@ namespace BuildPattern101
 {
     class Program
     {
+        // THE DIRECTOR
         static void Main(string[] args)
         {
             Console.WriteLine();
