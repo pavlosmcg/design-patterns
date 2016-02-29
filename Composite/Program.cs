@@ -20,7 +20,7 @@ namespace Composite
             //var scratchyBaby = new Meerkat("Baby of Scratching Brother");
             //var familyMeThinksHasFleas = new Mob{Name = "Sergei Scratchy Extended Family", Members = {brotherOfSergeiAlwaysWithTheScratching, wifeOfScratchingBrother, scratchyBaby}};
             
-            var sergeiFamily = new Mob {Name = "family of Sergei" Members = {sergei, mostBeautiousSisterofSergei}}; //add familyMeThinksHasFleas into the extended sergeiFamily Mob
+            var sergeiFamily = new Mob {Name = "family of Sergei", Members = {sergei, mostBeautiousSisterofSergei}}; //add familyMeThinksHasFleas into the extended sergeiFamily Mob
             
             var mothermabobOfBogdan = new Meerkat("Mothermabob of Bogdan");
             var fathermabobOfBogdan = new Meerkat("Fathermabob of Bogdan");
