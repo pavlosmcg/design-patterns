@@ -4,6 +4,7 @@
 
     public interface IMeerkovan
     {
+        string Name { get; set; }
         void InviteMyMostStupendousParty();
     }
 }

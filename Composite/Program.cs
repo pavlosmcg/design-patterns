@@ -18,13 +18,13 @@ namespace Composite
             //var brotherOfSergeiAlwaysWithTheScratching = new Meerkat("Scratching Brother of Sergei");
             //var wifeOfScratchingBrother = new Meerkat("Wife of Scratching Brother");
             //var scratchyBaby = new Meerkat("Baby of Scratching Brother");
-            //var familyMeThinksHasFleas = new Mob{Members = {brotherOfSergeiAlwaysWithTheScratching, wifeOfScratchingBrother, scratchyBaby}};
+            //var familyMeThinksHasFleas = new Mob{Name = "Sergei Scratchy Extended Family", Members = {brotherOfSergeiAlwaysWithTheScratching, wifeOfScratchingBrother, scratchyBaby}};
             
-            var sergeiFamily = new Mob {Members = {sergei, mostBeautiousSisterofSergei}}; //add familyMeThinksHasFleas into the extended sergeiFamily Mob
+            var sergeiFamily = new Mob {Name = "family of Sergei" Members = {sergei, mostBeautiousSisterofSergei}}; //add familyMeThinksHasFleas into the extended sergeiFamily Mob
             
             var mothermabobOfBogdan = new Meerkat("Mothermabob of Bogdan");
             var fathermabobOfBogdan = new Meerkat("Fathermabob of Bogdan");
-            var bogdanFamily = new Mob {Members = {bogdan, mothermabobOfBogdan, fathermabobOfBogdan}};
+            var bogdanFamily = new Mob {Name = "family of Bogdan", Members = {bogdan, mothermabobOfBogdan, fathermabobOfBogdan}};
 
             // simplify this to avoid using two Lists?
             var meerkovaVillagers = new List<Meerkat> {maiya, vassily, yakov};
