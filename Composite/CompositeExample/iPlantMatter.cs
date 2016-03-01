@@ -1,6 +1,6 @@
 ﻿namespace CompositeExample
 {
-    interface IPlantMatter
+    public interface IPlantMatter
     {
         string Name { get; set; }
         void Prune();

@@ -3,10 +3,15 @@ using System.Collections.Generic;
 
 namespace CompositeExample
 {
-    class Branch : IPlantMatter
+    public class Branch : IPlantMatter
     {
         public string Name { get; set; }
         public List<IPlantMatter> Growth { get; set; }
+
+        public Branch()
+        {
+            Growth = new List<IPlantMatter>();
+        }
 
         public void Prune()
         {
